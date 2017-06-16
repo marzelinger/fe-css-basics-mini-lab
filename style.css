@@ -1,18 +1,75 @@
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url(http://www.tysto.com/articles04/pics/liberty/statue-left-colorized.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+}
 
 .box {
   width: 100px;
   height: 100px;
   display: inline-block;
 }
-
 #one {
   background-color: red;
 }
-
 #two {
   background-color: blue;
 }
-
 #three {
   background-color: green;
+}
+#first {
+  background-color: blue;
+  color: white;
+}
+#second {
+  font-family: 'Barrio', cursive;
+}
+
+#rightj {
+  float:right;
+}
+
+#hov:hover {
+  color:orange;
+  font-family: 'Barrio', cursive;
+}
+
+.even{
+  color:#891464;
+}
+
+#one:hover{
+  background-color: blue;
+}
+#two:hover{
+  border-radius: 100px;
+}
+#three:hover{
+  background-image: url(http://nowiknow.com/wp-content/uploads/chicken-011.jpg);
+  background-size: cover;
+  background-color: transparent;
+  background-position: center;
+}
+
+#pic{
+  display:block;
+  margin: auto;
+  width:50%;
+}
+
+p {
+  font-size: 20px;
 }
